@@ -1,7 +1,7 @@
 
 body {
 	padding: 60px 10px;
-	font-family: 'Garamond', sans-serif;
+	font-family: 'Helvetica', sans-serif;
 	font-size: 1.125rem;
     line-height: 1.33333;
 	color: #404040;
@@ -20,6 +20,10 @@ ul {
 	padding: 20px;
 }
 
+.page.gradient {
+	background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+}
+
 .logo {
 	width: 200px;
 }
@@ -31,13 +35,14 @@ ul {
 }
 
 .skills li {
-
+	display: inline-block;
+	margin: 0 5px;
 }
 
 h1, h2, h3, h4 {
 	font-family: 'Futura', sans-serif;
-	margin: 0;
 }
+
 section .title {
 	font-weight: bold;
 	display: flex;
