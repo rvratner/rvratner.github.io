@@ -5,9 +5,7 @@ body {
 	font-size: 1.125rem;
     line-height: 1.33333;
 	color: #404040;
-/*	background-image: url(../img/logo.png);
-*/	background-size: 200px;
-	background-color: #eee;
+	background-size: 200px;
 }
 
 ul {
@@ -37,10 +35,6 @@ ul {
 .skills li {
 	display: inline-block;
 	margin: 0 5px;
-}
-
-h1, h2, h3, h4 {
-	font-family: 'Futura', sans-serif;
 }
 
 section .title {
