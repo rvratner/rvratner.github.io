@@ -27,7 +27,7 @@ function generateRandomGradient() {
 }
 
 const changeBackgroundColor = () => {
-	document.querySelector('.page').style.background  = generateRandomGradient();
+	document.body.style.background  = generateRandomGradient();
 };
 
 const generateGradient = () => {
@@ -35,8 +35,8 @@ const generateGradient = () => {
 };
 
 const clear = () => {
-	document.querySelector('.page').style.background = 'white';
+	document.body.style.background = 'white';
 }
 
 document.getElementById('clickme').addEventListener('click', generateGradient);
-document.getElementById('clear').addEventListener('clear', clear);
+document.getElementById('clear').addEventListener('click', clear);
