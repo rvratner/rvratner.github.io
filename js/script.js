@@ -3,18 +3,40 @@ console.log('hello!')
 
 let gradient = true;
 
+function generateRandomGradient() {
+    // Generate random RGB values for two colors
+    var color1 = {
+        r: Math.floor(Math.random() * 256),
+        g: Math.floor(Math.random() * 256),
+        b: Math.floor(Math.random() * 256)
+    };
+    var color2 = {
+        r: Math.floor(Math.random() * 256),
+        g: Math.floor(Math.random() * 256),
+        b: Math.floor(Math.random() * 256)
+    };
+
+    // Convert the RGB values to CSS color strings
+    var color1Str = `rgb(${color1.r}, ${color1.g}, ${color1.b})`;
+    var color2Str = `rgb(${color2.r}, ${color2.g}, ${color2.b})`;
+
+    // Generate a CSS gradient string using the two colors
+    var gradient = `linear-gradient(${color1Str}, ${color2Str})`;
+
+    return gradient;
+}
+
 const changeBackgroundColor = () => {
-	if (!gradient) document.querySelector('.page').classList.add('gradient');
-	else document.querySelector('.page').classList.remove('gradient');
+	document.querySelector('.page').style.background  = generateRandomGradient();
 };
 
-const randomStuff = () => {
-	gradient = !gradient;
+const generateGradient = () => {
 	changeBackgroundColor(gradient);
-	// happened today in history
-	// change color
-	// disco
-	// translate to spanish
 };
 
-document.getElementById('clickme').addEventListener('click', randomStuff);
+const clear = () => {
+	document.querySelector('.page').style.background = 'white';
+}
+
+document.getElementById('clickme').addEventListener('click', generateGradient);
+document.getElementById('clear').addEventListener('clear', clear);
