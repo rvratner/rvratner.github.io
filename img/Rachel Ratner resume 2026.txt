@@ -1,0 +1,51 @@
+RACHEL RATNER
+206-778-7545
+rachelratner@gmail.com
+
+PROFILE
+
+Senior Full Stack Software Engineer with 12+ years of experience building tools for scientific research and data-intensive applications. Skilled across the full stack: TypeScript/React front ends, Flask/Python APIs, database design, and infrastructure. Experienced training and fine-tuning ML models and building tools that enable researchers to label data, visualize results, and scale scientific workflows.
+
+EXPERIENCE
+
+Senior Software Engineer, Allen Institute for AI (AI2); Seattle, WA -- 2021-Present
+
+OlmoEarth: Built a full-stack application enabling researchers to label geospatial data and train machine learning models. Developed the TypeScript/React front end, Flask/Python REST APIs, and database schemas. Trained and fine-tuned ML models and evaluated results. Collected requirements from scientists and identified opportunities for new tooling to simplify and scale their workflows.
+
+MolmoSpaces: Built the demo website for MolmoSpaces, which renders MuJoCo physics simulations in the browser. Integrated MuJoCo with Three.js to create navigable 3D environments for virtual robots.
+
+Skylight: Led the Skylight project following its transition from Vulcan to AI2. Built UI tools for annotating and visualizing ML training data.
+
+Senior Software Engineer, Vulcan; Seattle, WA -- 2017-2021
+
+Architected and developed end-to-end applications for the Skylight team, a platform for tracking illegal fishing activity. Built a REST-based OpenAPI and a GraphQL API from the ground up. Developed a real-time React web app for vessel tracking, a back-end notification service for alerting users to illegal fishing events in their area, and managed metrics via Prometheus and Google Analytics. Collaborated closely with conservation stakeholders and cross-functional teams. Note: The Skylight project transitioned from Vulcan to AI2 in 2021.
+
+Design Technologist / Web Development Engineer II, Amazon; Seattle, WA -- 2013-2017
+
+Developed custom landing pages for Fortune 500 companies, and built a reusable "Landing Page Builder" in React that streamlined the creation and scalability of these pages. Collaborated extensively with QA and designers within the Amazon Marketing Group.
+
+Junior Front End Web Developer, BKWLD; Seattle, WA -- 2012-2013
+
+Worked with UX and design teams to build pixel perfect responsive custom web pages for marketing clients.
+
+Front End Web Developer, Freelance; Seattle, WA -- 2010-2013
+
+Worked with a variety of agencies and clients to create custom built, responsive online solutions including a website for Pokemon (via Plexi-Pixel) and a Facebook App for Chateau St. Michelle (Cole & Webber).
+
+Marketing Manager / DJ, KEXP; Seattle, WA -- 2004-2010
+
+Managed KEXP's marketing team, overseeing website updates, managing internships, and hosting on-air segments.
+
+EDUCATION
+
+Seattle Central Community College -- Web Design Certificate, 2010
+University of Washington -- Masters in Social Work, 2008
+University of Puget Sound -- B.A. in Creative Writing, 2001
+
+SKILLS
+
+TypeScript, JavaScript, Python, React, Flask, Three.js, GraphQL, SQL, MongoDB, Docker, Kubernetes, GitHub Actions, CSS, SASS, Webpack, ElasticSearch, Mapbox, Prometheus, Redis, Node.js, Google Cloud Platform, AWS.
+
+HOBBIES
+
+Founded the Seattle Band Map, an interactive website showcasing the interconnectivity of NW musicians. Featured on Wired.com.

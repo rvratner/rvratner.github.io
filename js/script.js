@@ -1,4 +1,8 @@
-console.log('hello!')
+const yearsExperience = new Date().getFullYear() - 2010;
+document.getElementById('years-experience').textContent = yearsExperience;
+document.querySelectorAll('.years-experience-inline').forEach(el => {
+	el.textContent = yearsExperience;
+});
 
 
 let gradient = true;
