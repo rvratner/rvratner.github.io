@@ -42,3 +42,6 @@ __pycache__/
 *.py[cod]
 .venv/
 venv/
+
+# Private documents (cover letters, notes)
+private/
